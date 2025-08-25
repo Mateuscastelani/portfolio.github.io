@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Body Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mateus Body Art</h1>
+         <button id="modoToggle">🌙</button>
+    </header>
+
+    <main>
+        <h2><strong>Em Construção</strong></h2>
+        <p>Este portfólio está em construção. <strong>Em breve</strong>, você poderá ver os trabalhos incríveis de Mateus Body Art.</p>
+        <div class="redes_sociais_link">
+        <a href="https://www.instagram.com/mateus_bodyart" target="_blank">Saiba mais</a>
+        </div>
+        <p class="informacao_contato">Para mais informações, entre em contato pelo Instagram.</p>
+        <div class="redes_sociais">
+             <button onclick="window.location.href='https://www.instagram.com/mateus_bodyart'">Visitar Instagram</button>
+        </div>
+       
+        <hr />
+
+        <section id="loja">
+            <h2><strong>💎</strong>Jóias</h2>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="circular-barbell-12mm.jpg" alt="Barbel circular de 12mm">
+                    <h3>Barbel circular de 12mm</h3>
+                    <p>R$ 25,00</p>
+                    <button onclick="comprar('Barbel circular de 12mm', 25)">Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="piercing2.jpg" alt="Piercing Dourado">
+                    <h3>Piercing Dourado</h3>
+                    <p>R$ 30,00</p>
+                    <button onclick="comprar('Piercing Dourado', 30)">Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="piercing3.jpg" alt="Piercing com Pedra">
+                    <h3>Piercing com Pedra</h3>
+                    <p>R$ 35,00</p>
+                    <button onclick="comprar('Piercing com Pedra', 35)">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mateus Body Art. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // WhatsApp compra
+        function comprar(produto, preco) {
+            const numero = '5514991931562'; // Ex: 5511999999999
+            const msg = `Olá! Tenho interesse no ${produto} por R$ ${preco}, do site Mateus Body Art.`;
+            const url = `https://wa.me/${numero}?text=${encodeURIComponent(msg)}`;
+            window.open(url, '_blank');
+        }
+
+        // Alternar modo escuro
+        const toggle = document.getElementById('modoToggle');
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('escuro');
+            toggle.textContent = document.body.classList.contains('escuro') ? '☀️ Modo Claro' : '🌙 Modo Escuro';
+        });
+    </script>
+</body>
+</html>
