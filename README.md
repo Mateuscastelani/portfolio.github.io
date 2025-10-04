@@ -59,8 +59,8 @@ E pronto! Você estará visualizando o projeto.
 
 Vamos conversar? Adoraria conectar-me com você!
 
-* **LinkedIn:** [Mateus Castelani](www.linkedin.com/in/mateus-c-48b546101)
-* **GitHub:** [@Mateuscastelani](https://github.com/Mateuscastelani))
+* **LinkedIn:** (www.linkedin.com/in/mateus-c-48b546101)
+* **GitHub:** [@Mateuscastelani](https://github.com/Mateuscastelani)
 
 ---
 
