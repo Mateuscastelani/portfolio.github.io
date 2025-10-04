@@ -1,6 +1,6 @@
 # Meu Primeiro Portfólio
 
-![Página inicial do Portfólio](portfolio.print.png)
+![Página inicial do Portfólio](assets/portfolio.print.png)
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para ser meu cartão de visitas digital, onde apresento minhas habilidades, projetos e um pouco sobre minha jornada como desenvolvedor Web.
 
